@@ -21,7 +21,7 @@ def say():
 def play():
     response = '<?xml version="1.0"?>'
     response += "<Response>"
-    response += '<Play url=""/>'
+    response += '<Play url="https://s3.eu-west-2.amazonaws.com/at-voice-sample/play.mp3"/>'
     response += "</Response>"
     return response
 
